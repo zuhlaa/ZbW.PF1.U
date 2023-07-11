@@ -1,4 +1,4 @@
-﻿namespace MB01.A4_1
+﻿namespace MB01.A8_2
 {
     partial class A4_1_4
     {
@@ -28,91 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblValue1 = new System.Windows.Forms.Label();
-            this.LblValue2 = new System.Windows.Forms.Label();
-            this.TxtValue1 = new System.Windows.Forms.TextBox();
-            this.TxtValue2 = new System.Windows.Forms.TextBox();
-            this.LblResult = new System.Windows.Forms.Label();
-            this.CmdCheck = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            LblValue1=new Label();
+            LblValue2=new Label();
+            TxtValue1=new TextBox();
+            TxtValue2=new TextBox();
+            LblResult=new Label();
+            CmdCheck=new Button();
+            SuspendLayout();
             // 
             // LblValue1
             // 
-            this.LblValue1.AutoSize = true;
-            this.LblValue1.Location = new System.Drawing.Point(13, 13);
-            this.LblValue1.Name = "LblValue1";
-            this.LblValue1.Size = new System.Drawing.Size(41, 13);
-            this.LblValue1.TabIndex = 0;
-            this.LblValue1.Text = "Zahl A:";
+            LblValue1.AutoSize=true;
+            LblValue1.Location=new Point(15, 15);
+            LblValue1.Margin=new Padding(4, 0, 4, 0);
+            LblValue1.Name="LblValue1";
+            LblValue1.Size=new Size(44, 15);
+            LblValue1.TabIndex=0;
+            LblValue1.Text="Zahl A:";
             // 
             // LblValue2
             // 
-            this.LblValue2.AutoSize = true;
-            this.LblValue2.Location = new System.Drawing.Point(13, 39);
-            this.LblValue2.Name = "LblValue2";
-            this.LblValue2.Size = new System.Drawing.Size(41, 13);
-            this.LblValue2.TabIndex = 1;
-            this.LblValue2.Text = "Zahl B:";
+            LblValue2.AutoSize=true;
+            LblValue2.Location=new Point(15, 45);
+            LblValue2.Margin=new Padding(4, 0, 4, 0);
+            LblValue2.Name="LblValue2";
+            LblValue2.Size=new Size(43, 15);
+            LblValue2.TabIndex=1;
+            LblValue2.Text="Zahl B:";
             // 
             // TxtValue1
             // 
-            this.TxtValue1.Location = new System.Drawing.Point(63, 13);
-            this.TxtValue1.Name = "TxtValue1";
-            this.TxtValue1.Size = new System.Drawing.Size(162, 20);
-            this.TxtValue1.TabIndex = 2;
+            TxtValue1.Location=new Point(74, 15);
+            TxtValue1.Margin=new Padding(4, 3, 4, 3);
+            TxtValue1.Name="TxtValue1";
+            TxtValue1.Size=new Size(188, 23);
+            TxtValue1.TabIndex=2;
             // 
             // TxtValue2
             // 
-            this.TxtValue2.Location = new System.Drawing.Point(63, 40);
-            this.TxtValue2.Name = "TxtValue2";
-            this.TxtValue2.Size = new System.Drawing.Size(162, 20);
-            this.TxtValue2.TabIndex = 3;
+            TxtValue2.Location=new Point(74, 46);
+            TxtValue2.Margin=new Padding(4, 3, 4, 3);
+            TxtValue2.Name="TxtValue2";
+            TxtValue2.Size=new Size(188, 23);
+            TxtValue2.TabIndex=3;
             // 
             // LblResult
             // 
-            this.LblResult.AutoSize = true;
-            this.LblResult.Location = new System.Drawing.Point(60, 115);
-            this.LblResult.Name = "LblResult";
-            this.LblResult.Size = new System.Drawing.Size(16, 13);
-            this.LblResult.TabIndex = 4;
-            this.LblResult.Text = "...";
+            LblResult.AutoSize=true;
+            LblResult.Location=new Point(70, 133);
+            LblResult.Margin=new Padding(4, 0, 4, 0);
+            LblResult.Name="LblResult";
+            LblResult.Size=new Size(16, 15);
+            LblResult.TabIndex=4;
+            LblResult.Text="...";
             // 
             // CmdCheck
             // 
-            this.CmdCheck.Location = new System.Drawing.Point(63, 67);
-            this.CmdCheck.Name = "CmdCheck";
-            this.CmdCheck.Size = new System.Drawing.Size(162, 23);
-            this.CmdCheck.TabIndex = 5;
-            this.CmdCheck.Text = "Bestimme grössere Zahl:";
-            this.CmdCheck.UseVisualStyleBackColor = true;
-            this.CmdCheck.Click += new System.EventHandler(this.CmdCheck_Click);
+            CmdCheck.Location=new Point(74, 77);
+            CmdCheck.Margin=new Padding(4, 3, 4, 3);
+            CmdCheck.Name="CmdCheck";
+            CmdCheck.Size=new Size(189, 27);
+            CmdCheck.TabIndex=5;
+            CmdCheck.Text="Bestimme grössere Zahl:";
+            CmdCheck.UseVisualStyleBackColor=true;
+            CmdCheck.Click+=CmdCheck_Click;
             // 
-            // Form1
+            // A4_1_4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.CmdCheck);
-            this.Controls.Add(this.LblResult);
-            this.Controls.Add(this.TxtValue2);
-            this.Controls.Add(this.TxtValue1);
-            this.Controls.Add(this.LblValue2);
-            this.Controls.Add(this.LblValue1);
-            this.Name = "Form1";
-            this.Text = "Aufgabe_A4-1-6";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions=new SizeF(7F, 15F);
+            AutoScaleMode=AutoScaleMode.Font;
+            ClientSize=new Size(331, 301);
+            Controls.Add(CmdCheck);
+            Controls.Add(LblResult);
+            Controls.Add(TxtValue2);
+            Controls.Add(TxtValue1);
+            Controls.Add(LblValue2);
+            Controls.Add(LblValue1);
+            Margin=new Padding(4, 3, 4, 3);
+            Name="A4_1_4";
+            Text="Aufgabe_A4-1-4";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Label LblValue1;
-        private System.Windows.Forms.Label LblValue2;
-        private System.Windows.Forms.TextBox TxtValue1;
-        private System.Windows.Forms.TextBox TxtValue2;
-        private System.Windows.Forms.Label LblResult;
-        private System.Windows.Forms.Button CmdCheck;
+        private Label LblValue1;
+        private Label LblValue2;
+        private TextBox TxtValue1;
+        private TextBox TxtValue2;
+        private Label LblResult;
+        private Button CmdCheck;
     }
 }
 

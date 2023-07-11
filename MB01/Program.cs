@@ -1,4 +1,4 @@
-using MB01.A4_1;
+using MB01.A8_2;
 
 namespace MB01
 {
@@ -13,7 +13,11 @@ namespace MB01
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            
             Application.Run(new A4_1_4());
+
+            //Application.Run(new A8_2_1());
+
         }
     }
 }
