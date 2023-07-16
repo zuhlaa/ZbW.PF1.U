@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Einheit12.ReferenceExample
+namespace MB04.ReferenceExample
 {
     public class Person
     {
