@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="HandtaschenBeispiel\Loesung\Handbag.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="HandtaschenBeispiel\Loesung\Handbag.txt" />
+  </ItemGroup>
+
 </Project>
