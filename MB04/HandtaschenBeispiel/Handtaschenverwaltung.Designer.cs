@@ -89,6 +89,7 @@
             Controls.Add(LblName);
             Controls.Add(BtnAdd);
             Name="Handtaschenverwaltung";
+            StartPosition=FormStartPosition.CenterScreen;
             Text="Handtaschenverwaltung";
             ((System.ComponentModel.ISupportInitialize)NuDPrice).EndInit();
             ResumeLayout(false);
