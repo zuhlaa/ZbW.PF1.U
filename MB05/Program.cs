@@ -1,7 +1,7 @@
-using MB04.HandtaschenBeispiel;
-using MB04.ReferenzBeispiel;
+using MB05.A12_1;
+using MB05.A12_2;
 
-namespace MB04
+namespace MB05
 {
     internal static class Program
     {
@@ -14,9 +14,8 @@ namespace MB04
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            
-            Application.Run(new ReferenceExampleView());
-            //Application.Run(new Handtaschenverwaltung());
+            Application.Run(new Uhr1());
+            //Application.Run(new Uhr2());
 
         }
     }
