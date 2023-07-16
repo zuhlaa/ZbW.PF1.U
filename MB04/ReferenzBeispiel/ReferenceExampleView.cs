@@ -1,4 +1,4 @@
-﻿namespace MB04.ReferenceExample
+﻿namespace MB04.ReferenzBeispiel
 {
     public partial class ReferenceExampleView : Form
     {

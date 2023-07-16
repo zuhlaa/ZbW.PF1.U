@@ -1,4 +1,4 @@
-using MB04.ReferenceExample;
+using MB04.ReferenzBeispiel;
 
 namespace MB04
 {
