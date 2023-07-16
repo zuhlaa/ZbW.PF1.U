@@ -1,11 +1,18 @@
-    public partial class Haustierverwaltung1 : Form
+   using MB06.Haustierverwaltung_2.Loesung;
+
+    public partial class Haustierverwaltung2 : Form
     {
         private AnimalController Controller { get; set; }
 
-        public Haustierverwaltung1()
+        public Haustierverwaltung2()
         {
             InitializeComponent();
             Controller = new AnimalController();
+        }
+
+        private void BtnAllPlay_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(this, Controller.AllPlay());
         }
 
         private void BtnAdd_Click(object sender, EventArgs e)

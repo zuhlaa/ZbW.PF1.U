@@ -1,7 +1,10 @@
 namespace MB06.Haustierverwaltung_2
 {
+    using MB06.Haustierverwaltung_2.Loesung;
+
     public partial class Haustierverwaltung2 : Form
     {
+
         public Haustierverwaltung2()
         {
             InitializeComponent();

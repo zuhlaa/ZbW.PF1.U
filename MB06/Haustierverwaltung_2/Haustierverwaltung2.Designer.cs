@@ -49,6 +49,7 @@
             BtnAdd.TabIndex=0;
             BtnAdd.Text="Erfassen";
             BtnAdd.UseVisualStyleBackColor=true;
+            BtnAdd.Click+=BtnAdd_Click;
             // 
             // LblName
             // 
@@ -130,6 +131,7 @@
             BtnAllPlay.TabIndex=11;
             BtnAllPlay.Text="Alle Spielen";
             BtnAllPlay.UseVisualStyleBackColor=true;
+            BtnAllPlay.Click+=BtnAllPlay_Click;
             // 
             // Haustierverwaltung2
             // 
@@ -147,6 +149,7 @@
             Controls.Add(LblName);
             Controls.Add(BtnAdd);
             Name="Haustierverwaltung2";
+            StartPosition=FormStartPosition.CenterScreen;
             Text="Haustierverwaltung";
             ((System.ComponentModel.ISupportInitialize)NumAge).EndInit();
             ResumeLayout(false);
