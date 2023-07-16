@@ -16,5 +16,10 @@ namespace MB05.HandtaschenBeispiel
         {
             InitializeComponent();
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

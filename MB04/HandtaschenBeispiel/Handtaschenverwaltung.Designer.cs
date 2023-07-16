@@ -44,6 +44,7 @@
             BtnAdd.TabIndex=0;
             BtnAdd.Text="Hinzufügen";
             BtnAdd.UseVisualStyleBackColor=true;
+            BtnAdd.Click+=BtnAdd_Click;
             // 
             // LblName
             // 
