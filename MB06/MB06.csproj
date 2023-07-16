@@ -8,4 +8,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Haustierverwaltung_1\Loesung\AnimalController.txt" />
+    <None Remove="Haustierverwaltung_1\Loesung\Cat.txt" />
+    <None Remove="Haustierverwaltung_1\Loesung\Dog.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Haustierverwaltung_1\Loesung\AnimalController.txt" />
+    <Compile Include="Haustierverwaltung_1\Loesung\Cat.txt" />
+    <Compile Include="Haustierverwaltung_1\Loesung\Dog.txt" />
+  </ItemGroup>
+
 </Project>

@@ -35,22 +35,25 @@
             NumAge=new NumericUpDown();
             label3=new Label();
             LblNumberOfPets=new Label();
+            RadCat=new RadioButton();
+            RadDog=new RadioButton();
             ((System.ComponentModel.ISupportInitialize)NumAge).BeginInit();
             SuspendLayout();
             // 
             // BtnAdd
             // 
-            BtnAdd.Location=new Point(70, 83);
+            BtnAdd.Location=new Point(70, 106);
             BtnAdd.Name="BtnAdd";
             BtnAdd.Size=new Size(120, 23);
             BtnAdd.TabIndex=0;
             BtnAdd.Text="Erfassen";
             BtnAdd.UseVisualStyleBackColor=true;
+            BtnAdd.Click+=BtnAdd_Click;
             // 
             // LblName
             // 
             LblName.AutoSize=true;
-            LblName.Location=new Point(12, 25);
+            LblName.Location=new Point(12, 48);
             LblName.Name="LblName";
             LblName.Size=new Size(39, 15);
             LblName.TabIndex=1;
@@ -59,7 +62,7 @@
             // LblAlter
             // 
             LblAlter.AutoSize=true;
-            LblAlter.Location=new Point(12, 54);
+            LblAlter.Location=new Point(12, 77);
             LblAlter.Name="LblAlter";
             LblAlter.Size=new Size(32, 15);
             LblAlter.TabIndex=2;
@@ -67,14 +70,14 @@
             // 
             // TxtName
             // 
-            TxtName.Location=new Point(70, 22);
+            TxtName.Location=new Point(70, 45);
             TxtName.Name="TxtName";
             TxtName.Size=new Size(120, 23);
             TxtName.TabIndex=3;
             // 
             // NumAge
             // 
-            NumAge.Location=new Point(70, 54);
+            NumAge.Location=new Point(70, 77);
             NumAge.Name="NumAge";
             NumAge.Size=new Size(120, 23);
             NumAge.TabIndex=4;
@@ -97,11 +100,35 @@
             LblNumberOfPets.TabIndex=6;
             LblNumberOfPets.Text="0";
             // 
-            // Haustierverwaltung
+            // RadCat
+            // 
+            RadCat.AutoSize=true;
+            RadCat.Location=new Point(137, 12);
+            RadCat.Name="RadCat";
+            RadCat.Size=new Size(53, 19);
+            RadCat.TabIndex=7;
+            RadCat.TabStop=true;
+            RadCat.Text="Katze";
+            RadCat.UseVisualStyleBackColor=true;
+            // 
+            // RadDog
+            // 
+            RadDog.AutoSize=true;
+            RadDog.Location=new Point(70, 12);
+            RadDog.Name="RadDog";
+            RadDog.Size=new Size(55, 19);
+            RadDog.TabIndex=8;
+            RadDog.TabStop=true;
+            RadDog.Text="Hund";
+            RadDog.UseVisualStyleBackColor=true;
+            // 
+            // Haustierverwaltung1
             // 
             AutoScaleDimensions=new SizeF(7F, 15F);
             AutoScaleMode=AutoScaleMode.Font;
-            ClientSize=new Size(471, 136);
+            ClientSize=new Size(471, 150);
+            Controls.Add(RadDog);
+            Controls.Add(RadCat);
             Controls.Add(LblNumberOfPets);
             Controls.Add(label3);
             Controls.Add(NumAge);
@@ -109,7 +136,7 @@
             Controls.Add(LblAlter);
             Controls.Add(LblName);
             Controls.Add(BtnAdd);
-            Name="Haustierverwaltung";
+            Name="Haustierverwaltung1";
             Text="Haustierverwaltung";
             ((System.ComponentModel.ISupportInitialize)NumAge).EndInit();
             ResumeLayout(false);
@@ -125,5 +152,7 @@
         private NumericUpDown NumAge;
         private Label label3;
         private Label LblNumberOfPets;
+        private RadioButton RadCat;
+        private RadioButton RadDog;
     }
 }
