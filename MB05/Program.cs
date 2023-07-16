@@ -1,5 +1,6 @@
 using MB05.A12_1;
 using MB05.A12_2;
+using MB05.HandtaschenBeispiel;
 
 namespace MB05
 {
@@ -16,6 +17,8 @@ namespace MB05
             ApplicationConfiguration.Initialize();
             Application.Run(new Uhr1());
             //Application.Run(new Uhr2());
+            //Application.Run(new Handtaschenverwaltung());
+
 
         }
     }
