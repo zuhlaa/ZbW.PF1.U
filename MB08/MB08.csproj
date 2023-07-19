@@ -7,12 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="FibonacciBeispiel\Loesung.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="FibonacciBeispiel\Loesung.txt" />
-  </ItemGroup>
-
 </Project>
