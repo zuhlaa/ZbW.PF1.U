@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MB08.RecursionBeispiel
+﻿namespace MB12.RecursionBeispiel
 {
     public class Datensatz
     {

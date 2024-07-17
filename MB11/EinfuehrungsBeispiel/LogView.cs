@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB07.EinfuehrungsBeispiel
+namespace MB11.EinfuehrungsBeispiel
 {
     public static class LogView
     {

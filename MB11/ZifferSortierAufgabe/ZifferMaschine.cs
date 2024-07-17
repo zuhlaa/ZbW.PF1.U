@@ -1,4 +1,4 @@
-﻿namespace MB07.ZifferSortierAufgabe
+﻿namespace MB11.ZifferSortierAufgabe
 {
     public static class ZifferMaschine
     {

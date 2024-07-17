@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-
-namespace MB08.RecursionBeispiel
+﻿
+namespace MB12.RecursionBeispiel
 {
     public class RecursionSample
     {

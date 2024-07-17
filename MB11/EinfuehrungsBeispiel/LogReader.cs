@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace MB07.EinfuehrungsBeispiel {
+namespace MB11.EinfuehrungsBeispiel {
     // The LogReader produces synthetic data for use in experiments.
     // It simulates a log file with 100,000 log lines and 90,001 different IP adresses.
     public class LogReader : IEnumerable<LogLine> {
