@@ -1,4 +1,3 @@
-using MB09.Haustierverwaltung_1.Loesung;
 
 namespace MB09.Haustierverwaltung_1
 {

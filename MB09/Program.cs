@@ -1,8 +1,6 @@
 namespace MB09
 {
-    using MB09.A13_1_1;
     using MB09.Haustierverwaltung_1;
-    using MB09.Haustierverwaltung_2;
 
     internal static class Program
     {
