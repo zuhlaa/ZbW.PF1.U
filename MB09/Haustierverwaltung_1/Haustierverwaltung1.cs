@@ -1,6 +1,6 @@
-using MB06.Haustierverwaltung_1.Loesung;
+using MB09.Haustierverwaltung_1.Loesung;
 
-namespace MB06.Haustierverwaltung_1
+namespace MB09.Haustierverwaltung_1
 {
     public partial class Haustierverwaltung1 : Form
     {

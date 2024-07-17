@@ -1,4 +1,4 @@
-﻿namespace MB06.Haustierverwaltung_2.Loesung
+﻿namespace MB09.Haustierverwaltung_2.Loesung
 {
     internal class Cat : Animal
     {

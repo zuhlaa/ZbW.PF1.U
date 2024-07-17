@@ -1,8 +1,8 @@
-﻿namespace MB06.Haustierverwaltung_1.Loesung
+﻿namespace MB09.Haustierverwaltung_1.Loesung
 {
-    public class Cat
+    public class Dog
     {
-        public Cat(string name, int age)
+        public Dog(string name, int age)
         {
             Name = name;
             Age = age;
