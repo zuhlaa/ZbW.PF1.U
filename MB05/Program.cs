@@ -1,6 +1,6 @@
-using MB02.BestimmeMax;
+using MB05.BestimmeMax;
 
-namespace MB02
+namespace MB05
 {
     internal static class Program
     {

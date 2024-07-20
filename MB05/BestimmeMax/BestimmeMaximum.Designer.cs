@@ -1,4 +1,4 @@
-﻿namespace MB02.BestimmeMax
+﻿namespace MB05.BestimmeMax
 {
     partial class BestimmeMaximum
     {

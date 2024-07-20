@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace MB01.A8_2
+namespace MB03.A8_2
 {
     public partial class A8_2_1 : Form
     {

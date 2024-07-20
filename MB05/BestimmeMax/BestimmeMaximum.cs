@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MB02.BestimmeMax
+namespace MB05.BestimmeMax
 {
     public partial class BestimmeMaximum : Form
     {

@@ -1,6 +1,6 @@
-using MB01.A8_2;
+using MB03.A8_2;
 
-namespace MB01
+namespace MB03
 {
     internal static class Program
     {
