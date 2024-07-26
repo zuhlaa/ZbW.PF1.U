@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Loesung.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Loesung.txt" />
+  </ItemGroup>
+
 </Project>
