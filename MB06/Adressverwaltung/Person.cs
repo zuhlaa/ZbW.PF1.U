@@ -1,12 +1,7 @@
-﻿using System;
-
-namespace MB06.Adressverwaltung
+﻿namespace MB06.Adressverwaltung
 {
-    enum Color
+    public class Person
     {
-        blond, brown, red, black
-    }
-    class Person
-    {
+    
     }
 }
