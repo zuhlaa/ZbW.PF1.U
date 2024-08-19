@@ -1,4 +1,5 @@
 using MB07.HandtaschenBeispiel;
+using MB07.TiermarktBeispiel;
 using MB07.ReferenzBeispiel;
 
 namespace MB07
@@ -14,8 +15,10 @@ namespace MB07
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            
-            Application.Run(new ReferenceExampleView());
+
+            Application.Run(new Tiermarkt());
+
+            // Application.Run(new ReferenceExampleView());
             //Application.Run(new Handtaschenverwaltung());
 
         }
