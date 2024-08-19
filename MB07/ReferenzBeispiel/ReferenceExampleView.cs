@@ -18,21 +18,7 @@
 
             var isEqual = personA.Equals(personB);
             LblResponseEquals.Text = isEqual.ToString();
-            ChangeBtnColor(sender, isEqual);
         }
-
-        private void ChangeBtnColor(object sender, bool isEqual)
-        {
-       
-            Button button = (Button)sender;
-            if (isEqual)
-            {
-                button.BackColor = Color.Green;
-            }
-            else
-            {
-                button.BackColor = Color.Red;
-            }
-        }
+ 
     }
 }
