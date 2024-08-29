@@ -1,6 +1,7 @@
 namespace MB09
 {
     using MB09.Haustierverwaltung_1;
+    using MB09.MathBeispiel;
 
     internal static class Program
     {
@@ -14,8 +15,8 @@ namespace MB09
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            //Application.Run(new MathView());
-            Application.Run(new Haustierverwaltung1());
+            Application.Run(new CalculatorForm());
+            //Application.Run(new Haustierverwaltung1());
            //Application.Run(new Haustierverwaltung2());
         }
     }
