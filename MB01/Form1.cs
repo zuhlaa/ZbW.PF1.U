@@ -6,5 +6,16 @@ namespace MB01
         {
             InitializeComponent();
         }
+
+        private void CmdHello_Click(object sender, EventArgs e)
+        {
+            // Hier wird ""Hallo" dem Lbl.Show.Text zugewiesen
+            LblShow.Text = "Hallo";
+        }
+        
+        private void CmdEnd_Click(object sender, EventArgs e)
+        {
+            LblShow.Text = "End";
+        }
     }
 }
